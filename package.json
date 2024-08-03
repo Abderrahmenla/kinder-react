@@ -37,7 +37,7 @@
     "@hcaptcha/react-hcaptcha": "^1.9.1",
     "@mswjs/data": "^0.15.0",
     "@mui/icons-material": "^5.14.16",
-    "@mui/lab": "^5.0.0-alpha.152",
+    "@mui/lab": "^5.0.0-alpha.173",
     "@mui/material": "^5.14.17",
     "@types/jest": "^29.5.8",
     "@vercel/analytics": "^1.1.1",
