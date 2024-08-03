@@ -38,7 +38,7 @@
     "@mswjs/data": "^0.15.0",
     "@mui/icons-material": "^5.14.16",
     "@mui/lab": "^5.0.0-alpha.152",
-    "@mui/material": "^5.14.17",
+    "@mui/material": "^5.16.6",
     "@types/jest": "^29.5.8",
     "@vercel/analytics": "^1.1.1",
     "axios": "^1.6.1",
