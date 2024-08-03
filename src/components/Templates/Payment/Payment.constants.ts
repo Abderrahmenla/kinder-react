@@ -1,0 +1,19 @@
+// Heights
+export const MOBILE_NAV_HEIGHT = 60;
+export const DESKTOP_DIALOG_HEIGHT = 588;
+export const HEADER_HEIGHT = 44;
+export const SWITCHER_HEIGHT = 44;
+export const NAVIGATION_HEIGHT = 48;
+export const PENDING_INFO_HEIGHT = 58;
+export const PENDING_BUTTON_HEIGHT = 44;
+export const PENDING_BUTTON_MARGIN = 24;
+export const CASHIER_MARGIN_TOP = 12;
+
+// Calculated Heights
+const withPending = PENDING_INFO_HEIGHT + PENDING_BUTTON_HEIGHT + PENDING_BUTTON_MARGIN;
+
+export const WITHDRAWAL_HEIGHT_WITH_PENDING = SWITCHER_HEIGHT + withPending;
+export const PAYMENT_HEIGHT = SWITCHER_HEIGHT + NAVIGATION_HEIGHT;
+
+// Width
+export const DESKTOP_DIALOG_WIDTH = 360;

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "incremental": true, // https://nextjs.org/docs/basic-features/typescript#incremental-type-checking
+    "baseUrl": ".",
+    "paths": {
+      "@/mockData/*": ["./src/mockData/*"],
+      "@/constants/*": ["./src/constants/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/state/*": ["./src/components/state/*"],
+      "@/graphql/*": ["./src/graphql/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/mocks/*": ["./__mocks__/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/services/*": ["./src/services/*"],
+      "@/tests/*": ["./.jest/*"]
+    },
+    "target": "es2015",
+    "downlevelIteration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/Organisms/__mocks__/swiper.js",
+    "next-i18next.config.js"
+  ],
+  "exclude": ["node_modules"]
+}
